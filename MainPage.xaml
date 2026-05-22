@@ -16,6 +16,7 @@
             <Label
                 Text="Hello, World!"
                 Style="{StaticResource Headline}"
+                FontFamily="Kalam"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label

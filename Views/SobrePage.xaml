@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiAppHotell.SobrePage"
+    Title="Sobre"
+    BackgroundColor="#F3F6FF">
+
+    <VerticalStackLayout Padding="30"
+                         Spacing="20"
+                         VerticalOptions="Center">
+
+        <Label Text="ℹ️ Sobre o Aplicativo"
+               FontSize="32"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="BlueViolet"/>
+
+        <Frame BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20">
+
+            <VerticalStackLayout Spacing="15">
+
+                <Label Text="Aplicativo de cálculo de diária de hotel."
+                       FontSize="18"/>
+
+                <Label Text="Desenvolvedor: Carina Melo"
+                       FontSize="18"/>
+
+                <Label Text="Ano de desenvolvimento: 2026"
+                       FontSize="18"/>
+
+                <Label Text="Tecnologia utilizada: .NET MAUI"
+                       FontSize="18"/>
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>
