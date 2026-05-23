@@ -67,10 +67,12 @@
 
 	<ItemGroup>
 	  <Compile Remove="Views\NewPage1.xaml.cs" />
+	  <Compile Remove="Views\SobrePage.xaml.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Remove="Views\NewPage1.xaml" />
+	  <MauiXaml Remove="Views\SobrePage.xaml" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -79,8 +81,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\SobrePage.xaml.cs">
-	    <DependentUpon>SobrePage.xaml</DependentUpon>
+	  <Compile Update="Views\Sobre.xaml.cs">
+	    <DependentUpon>Sobre.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -91,7 +93,7 @@
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\SobrePage.xaml">
+	  <MauiXaml Update="Views\Sobre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
